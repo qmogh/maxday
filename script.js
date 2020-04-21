@@ -10,8 +10,7 @@ var name;
 
 
 
-//this is how after we type in the character name and hit enter
-//we will add the name to the variable, remove the input box and start our first scenario
+//here is where u enter ur name
 input.onkeypress = function(event) {
   console.log(input.value);
   if (event.key == "Enter" || event.keyCode == 13) {
@@ -22,7 +21,7 @@ input.onkeypress = function(event) {
 };
 
 
-//this changes the text and puts in your characters name
+//changes name to text
 var changeText = function(words) {
   text.innerHTML = words.replace("name", name);
 };
@@ -92,7 +91,12 @@ var scenario = {
     image:"https://flagexpressions.files.wordpress.com/2010/05/nascargreenflag.jpg",
     text:"You feel your heart pounding as the roars of the engines rise to meet the roars of the crowd. You see the green flag waving and you take off full speed.",
     buttons:[["GO GO GO", "advanceTo(scenario.nine)"]]
-  }
+  },
+  nine:{
+    image:"",
+    text:"",
+    buttons:[[]]
+  },
 
 
 
