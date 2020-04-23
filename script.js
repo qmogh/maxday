@@ -1,6 +1,4 @@
 
-//these variables connect our code with the 'id' on the html
-//we can then manipulate the variables and it will manipulate the html
 var images = document.getElementById("images");
 var text = document.getElementById("text");
 var buttonBox = document.getElementById('buttonBox');
@@ -10,7 +8,7 @@ var name;
 
 
 
-//here is where u enter ur name
+
 input.onkeypress = function(event) {
   console.log(input.value);
   if (event.key == "Enter" || event.keyCode == 13) {
@@ -21,18 +19,18 @@ input.onkeypress = function(event) {
 };
 
 
-//changes name to text
+
 var changeText = function(words) {
   text.innerHTML = words.replace("name", name);
 };
 
-//this takes the image link and puts it in the proper format, sending it to the html
+
 var changeImage = function(img) {
   images.style.backgroundImage = "url(" + img + ")";
 };
 
 
-//this looks at the number of options we have set and creates enough buttons
+
 var changeButtons = function(buttonList) {
   buttonBox.innerHTML = "";
   for (var i = 0; i < buttonList.length; i++) {
@@ -40,7 +38,6 @@ var changeButtons = function(buttonList) {
   };
 };
 
-//this is what moves the game along
 var advanceTo = function(s) {
   changeImage(s.image)
   changeText(s.text)
@@ -94,9 +91,19 @@ var scenario = {
   },
   nine:{
     image:"",
+    text:"The first turn is coming up, and you're holding a solid spot - in 117th place... Do you",
+    buttons:[["Accelerate through the inner lane," "advanceTo(scenario.ten)"],["Hold your spot, wait for a better oppurtunity", "advanceTo(scenario.eleven)"]]
+  },
+  ten:{
+    image:"",
     text:"",
     buttons:[[]]
   },
+  eleven:{
+    image:"",
+    text:"",
+    buttons:[[]]
+  }
 
 
 
