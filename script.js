@@ -44,13 +44,6 @@ var advanceTo = function(s) {
   changeButtons(s.buttons)
 };
 
-
-
-
-
-
-//this is the object that holds each scenario, the more you add the more options there are
-//scenario = {}
 var scenario = {
   one: {
     image: "https://usatodaysports.files.wordpress.com/2017/03/usp_indycar-_indianapolis_500.jpg?w=1000&h=667", //stadium
