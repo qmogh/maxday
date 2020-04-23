@@ -3,7 +3,7 @@ var images = document.getElementById("images");
 var text = document.getElementById("text");
 var buttonBox = document.getElementById('buttonBox');
 var input = document.getElementById('input');
-//this is the variable for the name of the character
+
 var name;
 
 
