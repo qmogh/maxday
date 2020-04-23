@@ -90,18 +90,18 @@ var scenario = {
     buttons:[["GO GO GO", "advanceTo(scenario.nine)"]]
   },
   nine:{
-    image:"",
+    image:"https://i.ytimg.com/vi/UVtwbe1jwH4/maxresdefault.jpg",
     text:"The first turn is coming up, and you're holding a solid spot - in 117th place... Do you",
-    buttons:[["Accelerate through the inner lane," "advanceTo(scenario.ten)"],["Hold your spot, wait for a better oppurtunity", "advanceTo(scenario.eleven)"]]
+    buttons: [["Accelerate through the inner lane", "advanceTo(scenario.ten)"],["Hold your place, and wait for a better oppurtunity", "advanceTo(scenario.eleven)"]]
   },
   ten:{
-    image:"",
-    text:"",
+    image:"pictures/chris.png",
+    text:"You accelrate through the inner lane, avoiding collisions. Just then, your coach Chris Walker, radios you. `ATTA BOY! Stay aggressive, this is HOW YOU WIN RACES. You're in 50th place now, Zach is in third. You got this.`",
     buttons:[[]]
   },
   eleven:{
-    image:"",
-    text:"",
+    image:"pictures/chris.png",
+    text:"You play it safe and hold your spot...but then your coach, Chris Walker, radios you. `Dude, WHAT ARE YOU DOING? You've been waiting your entire life for this, and you decide to play it safe? Now you're in 200th place, get back in it!'",
     buttons:[[]]
   }
 
