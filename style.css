@@ -25,12 +25,13 @@
     height: 22px;
     font-size: 14px;
   }
+  img {
+    width:200px;
+    height:200px;
+  }
+
 }
 
-img {
-  width:200px;
-  height:200px;
-}
 
 button{
   margin-left: 10px;
