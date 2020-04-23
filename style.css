@@ -1,17 +1,20 @@
-@media only screen and (min-width: 32em) {
-  body {
-    margin-left: 30%;
-    margin-right:30%;
-  }
-
-  #images {
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 1em;
-  }
-  }
+body {
+  color: white;
+  background-color: black;
+  font-size: 1.6em;
+  margin-left: 30%;
+  margin-right:30%;
 }
+
+#images {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+
+
 
 img {
   width:200px;
