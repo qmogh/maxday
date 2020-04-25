@@ -90,12 +90,12 @@ var scenario = {
   ten:{
     image:"pictures/chris.png",
     text:"You accelerate through the inner lane, avoiding collisions. Just then, your coach Chris Walker, radios you. `ATTA BOY! Stay aggressive, this is HOW YOU WIN RACES. You're in 50th place now, Zach is in 49th. You got this. There's a ramp coming up. Either hit the nitro and take it or go around it`",
-    buttons:[["Hit the nitro and take the ramp", "advanceTo(scenario.fourteen)"],["Go around", "advanceTo(scenario.fifteen)"],["Start Over", "advanceTo(scenario.one)"]]
+    buttons:[["Hit the nitro and take the ramp", "advanceTo(scenario.fourteen)"],["Go around", "advanceTo(scenario.sixteen)"],["Start Over", "advanceTo(scenario.one)"]]
   },
   eleven:{
     image:"pictures/chris.png",
     text:"You play it safe and hold your spot...but then your coach, Chris Walker, radios you. `Dude, WHAT ARE YOU DOING? You've been waiting your entire life for this, and you decide to play it safe? Now you're in 200th place, get back in it!'",
-    buttons:[["Tell Chris He's An Idiot", "advanceTo(scenario.tweve)"],["`My fault Chris! I'll catch up, I promise`", "advanceTo(scenario.thirteen)"],["Start Over", "advanceTo(scenario.one)"]]
+    buttons:[["Tell Chris He's An Idiot", "advanceTo(scenario.twelve)"],["`My fault Chris! I'll catch up, I promise`", "advanceTo(scenario.thirteen)"],["Start Over", "advanceTo(scenario.one)"]]
   },
   twelve:{
     image:"",
@@ -105,7 +105,7 @@ var scenario = {
   thirteen:{
     image:"",
     text:"`Yes, I know you will. There is a ramp coming up, either go on the ramp and hit the nitro or go around it.`",
-    buttons:[["Hit the nitro and take the ramp", "advanceTo(scenario.sixteen)"],["Go around", "advanceTo(scenario.seventeen)"],["Start Over", "advanceTo(scenario.one)"]]
+    buttons:[["Hit the nitro and take the ramp", "advanceTo(scenario.fifteen)"],["Go around", "advanceTo(scenario.seventeen)"],["Start Over", "advanceTo(scenario.one)"]]
   },
   fourteen:{
     image:"",
@@ -155,7 +155,7 @@ var scenario = {
 
   //win
   twentytwo:{
-    text:"You zoom pass the finish line, and could it be, YES, YOU DID IT. YOU'VE ONE THE HACK CLUB 500, NAME. YOU'RE THE FASTEST RACER IN THE WORLD!! There are no better endings. You've won. Congratulations.",
+    text:"You zoom pass the finish line, and could it be, YES, YOU DID IT. YOU'VE WON THE HACK CLUB 500, name. YOU'RE THE FASTEST RACER IN THE WORLD!! There are no better endings. You've won. Congratulations.",
     buttons:[["Start Over","advanceTo(scenario.two)"]]
   },
 
