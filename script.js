@@ -89,7 +89,7 @@ var scenario = {
   },
   ten:{
     image:"pictures/chris.png",
-    text:"You accelerate through the inner lane, avoiding collisions. Just then, your coach Chris Walker, radios you. `ATTA BOY! Stay aggressive, this is HOW YOU WIN RACES. You're in 50th place now, Zach is in third. You got this. There's a ramp coming up. Either hit the nitro and take it or go around it`",
+    text:"You accelerate through the inner lane, avoiding collisions. Just then, your coach Chris Walker, radios you. `ATTA BOY! Stay aggressive, this is HOW YOU WIN RACES. You're in 50th place now, Zach is in 49th. You got this. There's a ramp coming up. Either hit the nitro and take it or go around it`",
     buttons:[["Hit the nitro and take the ramp", "advanceTo(scenario.fourteen)"],["Go around", "advanceTo(scenario.fifteen)"],["Start Over", "advanceTo(scenario.one)"]]
   },
   eleven:{
@@ -109,7 +109,7 @@ var scenario = {
   },
   fourteen:{
     image:"",
-    text:"You hit the nitro, jump the ramp, and you go FLYING over the rest of the cars, landing a bit roughly, but you're not sitting pretty in 25th place. Zach is in 15th. You see Zach in front of you, Do you",
+    text:"You hit the nitro, jump the ramp, and you go FLYING over the rest of the cars, landing a bit roughly, but you're not sitting pretty in 25th place. Zach is in 24th. You see Zach in front of you, Do you",
     buttons:[["Pass Zach, despite it being a narrow road", "advanceTo(scenario.eighteen)"], ["Wait for Zach to mess up", "advanceTo(scenario.ninteen)"]]
   },
   // Safe Ramp Nitro 50th
