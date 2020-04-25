@@ -1,3 +1,4 @@
+// Images don't work intentionally, bc it's  a text adventure game now lOL. too lazy to take everything out.
 
 var images = document.getElementById("images");
 var text = document.getElementById("text");
